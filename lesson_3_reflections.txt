@@ -22,3 +22,8 @@ Branches are useful when working on a project and wanting to do
 experimental changes or doing special versions of the project.
 Just generally useful whilst coding to keep structure and have 
 back-up code so that you can run it.
+
+R4: What is the benefit of having a copy of the last known state of the remote stored locally?
+If for example you are working on the code and someone else has updated the
+remote repository. Then you can look at this and implement the changes that might be
+needed to merge the two versions.
