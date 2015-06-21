@@ -7,4 +7,30 @@ You need it to keep track of changes, to be able to make commits of the differen
 R2: How is the staging area differnt form the working directory and the repository?
 What value do you think it offers?
 
-The staging area is really just a preperation for a commit. Here you can decide which files should be commited. It's important for making logical commits. It's something that only exists temporarirly and is strictly related to a commit and nothing else.
+The staging area is really just a preperation for a commit. Here you can decide which 
+files should be commited. It's important for making logical commits. It's something that 
+only exists temporarirly and is strictly related to a commit.
+
+R3: How can you use the staging area to make sure you have one logical change per commit?
+By looking at the difference in code between the staging and the directory. 
+
+R4: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Experimential Feature
+when I want to add an experimential feature it can be nice to work on it in a separate 
+branch so that I still have a fully working version without it in the master branch
+
+Different version(easy-mode etc.)
+If I want to do a different version of my program for a special purpose, easier game,
+different language or something similar.
+
+R5: How do the diagrams help you visualize the branch structure?
+By graphing the commits we can see how these are related and what branches
+they are connected to. 
+This can give you an understanding of how the branches are built up. 
+
+R6: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The result is one new branch where the commits are ordered by time stamp 
+if you look at the branch in git log, which might be somewhat confusing.
+The resulting repository is a merger where all additions made by the 
+respective branch are added, with respect to the other branch .
