@@ -34,3 +34,10 @@ The result is one new branch where the commits are ordered by time stamp
 if you look at the branch in git log, which might be somewhat confusing.
 The resulting repository is a merger where all additions made by the 
 respective branch are added, with respect to the other branch .
+
+R7: What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+One big advantage is that it goes faster and is easier for the user who 
+doesn't have to keep track of everything, git finds the changes on it's own. 
+It also points out where the merge problems are located and hence guides the 
+user. Still sometimes there migth be some unintended effects of the
+merge which might not occur from a manual merge
