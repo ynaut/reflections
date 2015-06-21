@@ -1,0 +1,10 @@
+R1: What happens when you initialize a repository?
+Why do you need it?
+
+You create a .git file that can keep track of the changes that are made to the repository.
+You need it to keep track of changes, to be able to make commits of the different states.
+
+R2: How is the staging area differnt form the working directory and the repository?
+What value do you think it offers?
+
+The staging area is really just a preperation for a commit. Here you can decide which files should be commited. It's important for making logical commits. It's something that only exists temporarirly and is strictly related to a commit and nothing else.
