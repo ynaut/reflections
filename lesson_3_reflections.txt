@@ -7,3 +7,18 @@ Git automatically stay up-to-date with your remote repository?
 If several people are working on the same project the files might be out of sync.
 Also if work has been done on different computers the automatic commits
 might conflict with each other
+
+R3: Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Forks are basicly just clones of others projects on GitHub which link back to the original project.
+If I would like to add to, fix a bug in or modify a public project on GitHub I would use a fork.
+Then the original creator would get credit for his/her work and it would 
+be easier for them to implement changes that I have made in the original.
+
+Clones are just copies of projects, which can be made locally aswell as remote. 
+Clones can be used to clone projects from other sources than github
+
+Branches are branches of commits of the project-
+Branches are useful when working on a project and wanting to do
+experimental changes or doing special versions of the project.
+Just generally useful whilst coding to keep structure and have 
+back-up code so that you can run it.
