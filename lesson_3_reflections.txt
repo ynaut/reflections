@@ -27,3 +27,10 @@ R4: What is the benefit of having a copy of the last known state of the remote s
 If for example you are working on the code and someone else has updated the
 remote repository. Then you can look at this and implement the changes that might be
 needed to merge the two versions.
+
+R5: How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Without git and Github I would probably use dropbox or a similar storing service to collaborate. 
+Here the advantage is that everything gets updated immediately, assuming that you have internet access. 
+One big problem would be that there wouldn't be an easy way to merge the work
+of two or more people on the same file, if they hade been working on it at the same
+time. 
