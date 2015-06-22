@@ -34,3 +34,14 @@ Here the advantage is that everything gets updated immediately, assuming that yo
 One big problem would be that there wouldn't be an easy way to merge the work
 of two or more people on the same file, if they hade been working on it at the same
 time. 
+
+R6: When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+When you think that the changes you introduce might create problems with the code, like
+adding a new experemential feature which you won't be able to test properly before
+pushing it to github.
+
+The disadvantage is mainly that it is a little more complicated and time consuming to
+merge in the different branches. A big advantage though is that you can work
+progressively on making the branches compatible and also recieve input from other
+collaborators what you could do to make it work. It is a way of better controlling what
+happens with the project
